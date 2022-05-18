@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-[#09090a] text-zinc-100;
+}
+#root::after {
+    content: "";
+    position: absolute;
+    bottom:0;
+    height:3px;
+    width: 100%;
+    background-image: linear-gradient(144deg, #f40, #c22, rgb(153, 0, 255), #fee);
+  }
